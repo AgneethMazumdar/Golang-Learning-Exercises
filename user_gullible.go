@@ -24,7 +24,7 @@ func main () {
 		fmt.Printf("Please input any number except for: %v\n", i)
 		fmt.Scanln(&input)
 
-		// If the user inputs the index before ten turns, exit,
+		// If the user inputs the index before ten turns, exit the program
 		if input == i && i != 10 {
 			fmt.Printf("Hey, you weren't suppposed to enter %v!\n", i)
 			i = 10
