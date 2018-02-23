@@ -14,21 +14,21 @@ import(
 func main() {
 	var grade int
 
-	fmt.Print("Please enter your grade: ")
+	fmt.Printf("Please enter your grade: ")
 	fmt.Scanln(&grade)
 
 	if grade <= 59 {
-		fmt.Print("You received an F")
+		fmt.Println("You received an F")
 	} else if grade >= 60 && grade <= 69 {
-		fmt.Print("You recieved a D")
+		fmt.Println("You recieved a D")
 	} else if grade >= 70 && grade <= 79 {
-		fmt.Print("You received a C") 
+		fmt.Println("You received a C") 
 	} else if grade >= 80 && grade <= 89 {
-		fmt.Print("You received a B")
+		fmt.Println("You received a B")
 	} else {
-		fmt.Print("You received an A!")
+		fmt.Println("You received an A!")
 		if grade == 100 {
-			fmt.Print("You received a perfect score!")
+			fmt.Println("You received a perfect score!")
 		} // end if
 	} // end else
 }
