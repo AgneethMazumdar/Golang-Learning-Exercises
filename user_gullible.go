@@ -26,7 +26,7 @@ func main () {
 
 		// If the user inputs the index before ten turns, exit the program
 		if input == i && i != 10 {
-			fmt.Printf("Hey, you weren't suppposed to enter %v!\n", i)
+			fmt.Printf("Hey, you weren't supposed to enter %v!\n", i)
 			i = 10
 		} else if input != i && i == 9 {
 			fmt.Println("Wow, you're more patient than I am, you win.")
